@@ -21,7 +21,7 @@ services:
     build:
       context: ./frontend
       args:
-        VITE_SERVER_BASE_URL: "http://127.0.0.1:8000/api/v1"
+        VITE_SERVER_BASE_URL: "http://172.105.42.73:8000/api/v1"
     image: frontend:react
     container_name: react_frontend_container
     ports:

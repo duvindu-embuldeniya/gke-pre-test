@@ -126,5 +126,9 @@ STATIC_URL = 'static/'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
-    "http://172.105.42.73:5173"
+    "http://172.105.42.73:5173",
+    "http://www.duvindu.org",
+    "http://duvindu.org",
+    "https://www.duvindu.org",
+    "https://duvindu.org", 
 ]
